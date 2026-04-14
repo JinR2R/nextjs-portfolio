@@ -39,8 +39,8 @@ importers:
         specifier: ^12.26.2
         version: 12.26.2(@emotion/is-prop-valid@0.8.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       kysely:
-        specifier: ^0.28.9
-        version: 0.28.9
+        specifier: ^0.28.14
+        version: 0.28.14
       next:
         specifier: 16.1.1
         version: 16.1.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -107,7 +107,7 @@ importers:
         version: 10.4.23(postcss@8.5.6)
       kysely-supabase:
         specifier: ^0.2.1
-        version: 0.2.1(kysely@0.28.9)(supabase@2.72.6)
+        version: 0.2.1(kysely@0.28.14)(supabase@2.72.6)
       postcss:
         specifier: ^8.5.6
         version: 8.5.6
@@ -1069,8 +1069,8 @@ packages:
       kysely: '>= 0.24.0 < 1'
       supabase: '>= 1.0.0 < 3'
 
-  kysely@0.28.9:
-    resolution: {integrity: sha512-3BeXMoiOhpOwu62CiVpO6lxfq4eS6KMYfQdMsN/2kUCRNuF2YiEr7u0HLHaQU+O4Xu8YXE3bHVkwaQ85i72EuA==}
+  kysely@0.28.14:
+    resolution: {integrity: sha512-SU3lgh0rPvq7upc6vvdVrCsSMUG1h3ChvHVOY7wJ2fw4C9QEB7X3d5eyYEyULUX7UQtxZJtZXGuT6U2US72UYA==}
     engines: {node: '>=20.0.0'}
 
   lightningcss-android-arm64@1.30.2:
@@ -1724,6 +1724,7 @@ packages:
   tar@7.5.2:
     resolution: {integrity: sha512-7NyxrTE4Anh8km8iEy7o0QYPs+0JKBTj5ZaqHg6B39erLg0qYXN3BijtShwbsNSvQ+LN75+KV+C4QR/f6Gwnpg==}
     engines: {node: '>=18'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   third-party-capital@1.0.20:
     resolution: {integrity: sha512-oB7yIimd8SuGptespDAZnNkzIz+NWaJCu2RMsbs4Wmp9zSDUM8Nhi3s2OOcqYuv3mN4hitXc8DVx+LyUmbUDiA==}
@@ -2693,12 +2694,12 @@ snapshots:
 
   json-schema-traverse@1.0.0: {}
 
-  kysely-supabase@0.2.1(kysely@0.28.9)(supabase@2.72.6):
+  kysely-supabase@0.2.1(kysely@0.28.14)(supabase@2.72.6):
     dependencies:
-      kysely: 0.28.9
+      kysely: 0.28.14
       supabase: 2.72.6
 
-  kysely@0.28.9: {}
+  kysely@0.28.14: {}
 
   lightningcss-android-arm64@1.30.2:
     optional: true
