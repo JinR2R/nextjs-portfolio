@@ -39,8 +39,8 @@ importers:
         specifier: ^12.26.2
         version: 12.26.2(@emotion/is-prop-valid@0.8.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       kysely:
-        specifier: ^0.28.9
-        version: 0.28.9
+        specifier: ^0.28.14
+        version: 0.28.14
       next:
         specifier: 16.2.3
         version: 16.2.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -107,7 +107,7 @@ importers:
         version: 10.4.23(postcss@8.5.6)
       kysely-supabase:
         specifier: ^0.2.1
-        version: 0.2.1(kysely@0.28.9)(supabase@2.72.6)
+        version: 0.2.1(kysely@0.28.14)(supabase@2.72.6)
       postcss:
         specifier: ^8.5.6
         version: 8.5.6
@@ -1073,8 +1073,8 @@ packages:
       kysely: '>= 0.24.0 < 1'
       supabase: '>= 1.0.0 < 3'
 
-  kysely@0.28.9:
-    resolution: {integrity: sha512-3BeXMoiOhpOwu62CiVpO6lxfq4eS6KMYfQdMsN/2kUCRNuF2YiEr7u0HLHaQU+O4Xu8YXE3bHVkwaQ85i72EuA==}
+  kysely@0.28.14:
+    resolution: {integrity: sha512-SU3lgh0rPvq7upc6vvdVrCsSMUG1h3ChvHVOY7wJ2fw4C9QEB7X3d5eyYEyULUX7UQtxZJtZXGuT6U2US72UYA==}
     engines: {node: '>=20.0.0'}
 
   lightningcss-android-arm64@1.30.2:
@@ -2700,12 +2700,12 @@ snapshots:
 
   json-schema-traverse@1.0.0: {}
 
-  kysely-supabase@0.2.1(kysely@0.28.9)(supabase@2.72.6):
+  kysely-supabase@0.2.1(kysely@0.28.14)(supabase@2.72.6):
     dependencies:
-      kysely: 0.28.9
+      kysely: 0.28.14
       supabase: 2.72.6
 
-  kysely@0.28.9: {}
+  kysely@0.28.14: {}
 
   lightningcss-android-arm64@1.30.2:
     optional: true
